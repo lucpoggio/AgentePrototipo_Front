@@ -6,7 +6,9 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      '/api': 'http://localhost:8000'
-    }
+      '/api': 'web-production-37198.up.railway.app'
+    },
+
+    allowedHosts: ['agenteprototipofront-production.up.railway.app']
   }
 })
