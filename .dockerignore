@@ -1,0 +1,6 @@
+# Ignorar archivos innecesarios para Docker
+node_modules/
+dist/
+build/
+.env
+*.md
